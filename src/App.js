@@ -18,10 +18,6 @@ const movies = [
   {
     title : "Star Wars",
     poster : "https://imgix.ranker.com/user_node_img/50076/1001511915/original/the-very-first-_star-war_-poster-photo-u1?w=650&q=50&fm=jpg&fit=crop&crop=faces"
-  },
-  {
-    title : "test movie",
-    poster : ""
   }
 ]
 
