@@ -11,7 +11,7 @@ npx create-react-app movie_app
 ~~~
  - 명령어는 https://github.com/facebook/create-react-app > README.md 파일 참조
 
-![Alt install](cra_install.png)
+![Alt install](cra_install.PNG)
 
 해당 명령어를 수행하면 자동으로 CRA를 설치한다.
 그와 동시에 movie_app이라는 cra app용 dir를 만들어준다.
@@ -29,7 +29,7 @@ yarn start
 이 명령어는 react-scripts를 실행시킨다.
 그리고 미리 설치된 개발서버를 시작한다!
 
-![Alt install](server_started.png)
+![Alt install](server_started.PNG)
 
 화면에 출력된 로컬주소로 접속하면 기본화면을 볼 수 있다.
 
