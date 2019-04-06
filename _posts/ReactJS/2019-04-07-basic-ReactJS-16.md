@@ -45,13 +45,12 @@ didMount 후에 asyncronous function인 getMovies가 실행되고, 이 function�
 이 변수의 값은 _callApi를 통해 가지고 오며, 이때 _callApi function은 await 모드에서 동작한다!
 
 await는 해당 function이 끝나기를 기다리겠다는 의미이다.(성공이든 실패든)
-_callApi의 return 값을 movies에 set 한다.
-그 후 이 컴포넌트의 state를 movies로 SET.
+callApi의 return 값을 movies에 set 한다. 그 후 이 컴포넌트의 state를 movies로 SET.
 
 setState는 _callApi가 끝나기 전까지는 실행되지 않는다.
 *** json => json.data 은 모던 자바스크립트 기법으로, => 다음에는 return을 생략 가능하다.(return이 포함되어 있다.)
 
-_callApi는 fetch promise를 return한다. 
+callApi는 fetch promise를 return한다. 
 끝나면 const 변수(movies)에 return한 값을 set.
 
 ```js
